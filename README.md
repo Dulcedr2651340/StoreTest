@@ -28,4 +28,4 @@ El proyecto incluye las siguientes funcionalidades:
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-
+https://github.com/Dulcedr2651340/StoreTest.git
