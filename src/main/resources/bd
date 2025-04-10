@@ -1,0 +1,27 @@
+CREATE DATABASE storeTest
+DROP DATABASE storeTest;
+USE storeTest
+DROP TABLE categoria;
+CREATE TABLE categoria (
+    id_categoria INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(200) NOT NULL,
+    descripcion VARCHAR(255)
+);
+
+CREATE TABLE producto (
+    id_producto INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(200) NOT NULL,
+    precio DECIMAL(10, 2) NOT NULL,
+    stock INT NOT NULL,
+    id_categoria INT,
+    FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria)
+);
+
+SELECT * FROM categoria;
+SELECT * FROM producto;
+
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Televisor', 500.00, 10, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Camiseta', 20.00, 50, 3);
+
+INSERT INTO categoria (nombre, descripcion) VALUES ('Electrónica', 'Artículos electrónicos');
+INSERT INTO categoria (nombre, descripcion) VALUES ('Ropa', 'Ropa de moda');
