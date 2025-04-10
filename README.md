@@ -13,14 +13,14 @@ El proyecto incluye las siguientes funcionalidades:
 ### Categorías
 - **GET** `/categorias`: Listar todas las categorías disponibles.
 - **POST** `/categorias`: Crear una nueva categoría.
-- **PUT** `/categorias/{id}`: Actualizar una categoría existente.
-- **DELETE** `/categorias/{id}`: Eliminar una categoría.
+- **PUT** `/categorias/{id_categoria}`: Actualizar una categoría existente.
+- **DELETE** `/categorias/{id_categoria}`: Eliminar una categoría.
 
 ### Productos
 - **GET** `/productos`: Listar todos los productos.
 - **POST** `/productos`: Crear un nuevo producto (requiere asociar una categoría).
-- **PUT** `/productos/{id}`: Actualizar un producto existente.
-- **DELETE** `/productos/{id}`: Eliminar un producto.
+- **PUT** `/productos/{id_producto}`: Actualizar un producto existente.
+- **DELETE** `/productos/{id_producto}`: Eliminar un producto.
 
 ## Requisitos
 
