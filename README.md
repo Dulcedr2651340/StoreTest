@@ -1,6 +1,8 @@
 # Proyecto de Prueba Técnica
 
 Este proyecto es una implementación de una API REST utilizando **Spring Boot** con **JPA** y **MySQL**. La prueba técnica tiene como objetivo demostrar mis habilidades en el desarrollo de aplicaciones backend con **Spring Boot**, la implementación de **endpoints REST** y el manejo de bases de datos relacionales utilizando **JPA**.
+![image](https://github.com/user-attachments/assets/34b1a0f3-3643-46af-a5a7-3c0ce1f4afdd)
+
 
 ## Funcionalidades
 
