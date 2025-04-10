@@ -1,0 +1,31 @@
+# Proyecto de Prueba Técnica
+
+Este proyecto es una implementación de una API REST utilizando **Spring Boot** con **JPA** y **MySQL**. La prueba técnica tiene como objetivo demostrar mis habilidades en el desarrollo de aplicaciones backend con **Spring Boot**, la implementación de **endpoints REST** y el manejo de bases de datos relacionales utilizando **JPA**.
+
+## Funcionalidades
+
+El proyecto incluye las siguientes funcionalidades:
+
+### Categorías
+- **GET** `/categorias`: Listar todas las categorías disponibles.
+- **POST** `/categorias`: Crear una nueva categoría.
+- **PUT** `/categorias/{id}`: Actualizar una categoría existente.
+- **DELETE** `/categorias/{id}`: Eliminar una categoría.
+
+### Productos
+- **GET** `/productos`: Listar todos los productos.
+- **POST** `/productos`: Crear un nuevo producto (requiere asociar una categoría).
+- **PUT** `/productos/{id}`: Actualizar un producto existente.
+- **DELETE** `/productos/{id}`: Eliminar un producto.
+
+## Requisitos
+
+1. **Java 17** o superior.
+2. **MySQL** como base de datos relacional.
+3. **Spring Boot** para la creación de la API REST.
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+   ```bash
+
